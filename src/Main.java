@@ -41,10 +41,10 @@ public class Main {
         System.out.println(k + " float");
         //4
         short r = 569;
-        System.out.println(r + "short");
+        System.out.println(r + " short");
         //5
         short j = -159;
-        System.out.println(j + " shout");
+        System.out.println(j + " short");
         //6
         short o = 27897;
         System.out.println(o + " short");
@@ -81,7 +81,7 @@ public class Main {
         System.out.println("за " + one + " минут");
         short two = 24*60;
         System.out.println(two + " в сутки" );
-        int three = 24*3*60;
+        int three = 24*60*3;
         System.out.println(three + " за три дня");
         int four = 30*24*60;
         System.out.println(four + " за один месяц");
@@ -138,11 +138,11 @@ public class Main {
 
         int m = 67760;
         System.out.println(m + " получает в месяц");
-        int ma = m/100*10;
+        float ma = m/100f*10;
         System.out.println(ma + " прибавка в месяц");
-        int mash = (ma+m)*12;
+        double mash = (ma+m)*12;
         System.out.println(mash + " с прибавкой за год");
-        int masha = (mash-m*12);
+        double masha = (mash-m*12);
         System.out.println( " Маша теперь получает за год "  + mash + " рублей. Годовой доход " +
                 "вырос на " + masha + " рублей.");
 
